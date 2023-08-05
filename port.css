@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color:lightblue;
+  background-repeat: no-repeat;
+  width:100%;
+  background-size: 500px 500px;
+  height:100%;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 5px;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: right;
+  
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  font-size: x-large; 
+
+}
+  .res{
+    float: right;
+    margin-right: 10px;
+  }
+  .second{
+    background-color: #ffae42;
+    height: 500px;
+    padding-top: -5px;
+    margin: 0px;
+    
+  }
+  img{
+    width:300px;
+    height: 350px;
+    margin-left:50px;
+    margin-top: 100px;
+  }
+  #p1{
+    margin-top: -300px;
+    margin-left:600px;
+    color: black;
+    font-size: 50px}
+  #p2{
+    margin-top: -0px;
+    margin-left:600px;
+    color:black;
+    font-size: 50px;
+  }
+  #p3{
+    color:black;
+    margin-left:610px;
+  }
+  #wrapper{
+    width: 40%;
+    min-width: 570px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    margin-top:-100px;
+}
+#container{
+    width: 100%;
+    height:100%;
+    background-color: lightblue ;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+      
+    } 
+.container *{
+    
+    color: black;
+    height:100%;        
+
+}
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}        
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+
+    border: 2px solid #0d96e0;
+
+    border-radius: 20px;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+}  
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#javascript-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#react-bar{
+    animation: js-fill 2s forwards;
+}
+#jQuery-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 58%;
+
+    }
+} 
